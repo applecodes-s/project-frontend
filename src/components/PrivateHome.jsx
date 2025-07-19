@@ -38,7 +38,7 @@ const PrivateHome = () => {
         {/* Right Hero Illustration */}
         <div className="flex-1">
           <img
-            src="./public/hero.svg"
+            src="/hero.svg"
             alt="Dashboard Hero"
             className="w-full max-w-sm mx-auto"
           />
