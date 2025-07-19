@@ -55,8 +55,14 @@ const ProjectDetails = () => {
 
   <div className="flex gap-4 mt-4">
     <a href={project.github} className="text-blue-600 hover:underline">GitHub</a>
-    <a href={project.livedemo} className="text-green-600 hover:underline">Live Demo</a>
-  </div>
+    <a
+  href={project.liveDemo}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-600 underline"
+>
+  View Live Demo
+</a>  </div>
 
   
 
