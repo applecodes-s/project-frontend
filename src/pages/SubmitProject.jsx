@@ -23,7 +23,7 @@ const SubmitProject = () => {
     e.preventDefault();
     const formattedProject = {
       ...project,
-      tags: project.tags.split(',').map(tag => tag.trim()), // <-- this is important
+      tags: project.tags.split(',').map(tag => tag.trim()), 
     };
     try {
       await axios.post('https://project-backend-kwo0.onrender.com/api/projects', formattedProject);
